@@ -24,9 +24,6 @@ body,html{
 
 .slider-wrapper:hover { cursor: none; }
 
-.comparison-slider {
-
-}
 
 .before-wrapper {
   display: block;
@@ -35,7 +32,8 @@ body,html{
   height: 100%;
   position: relative;
   background: url("../home/images/mtl-substill.jpg") no-repeat center center #111111;
-  background-size: 100% auto;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .before-wrapper:before {
@@ -71,40 +69,7 @@ body,html{
   transform: translateX(-50%);
 
   background: url("../home/images/mtl-submov.jpg") no-repeat center center #efefef;
-  background-size: 100% auto;
+  background-size: cover;
+  background-attachment: fixed;
 
-}
-
-.past, .future{
-  padding: 40px;
-  color:#fff;
-  text-transform:uppercase;
-  font-size:20px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
-  font-weight:800;
-}
-
-.past {
- position: absolute;
- display: block;
- bottom: 0px;
- left:0px;
-}
-
-.you {
-  width: 200px;
-  height: 200px;
- position: absolute;
- display: block;
- right:0px;
- left: 0px;
- z-index:999;
- background: red;
-}
-
-.future {
- position: absolute;
- display: block;
- bottom: 0px;
- right:0px;
 }
