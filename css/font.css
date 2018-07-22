@@ -32,15 +32,37 @@
     padding-top: 30px;
     font-family: 'PT Mono', monospace;
     vertical-align: bottom;
-    background-color: black;
+    background-color: #080808;
     color: white;
+}
+
+#blog-txt{
+    padding: 50px;
+    font-family: 'PT Mono', monospace;
+    background-color: #080808;
+    color: white;
+}
+
+.blog-list{
+
+    font-family: 'PT Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+
+.blog-summary{
+    padding-bottom: 30px;
+    font-family: 'Maitree', serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: gray;
 }
 
 #contact{
     color: white;
     font-family: 'PT Mono', monospace;
     text-align: center;
-    border-right: 3px solid white;
 }
 
 #contact a{

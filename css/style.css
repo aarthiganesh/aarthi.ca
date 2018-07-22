@@ -3,7 +3,7 @@ body,html{
 }
 
 #nav{
-  background-color: black;
+  background-color: #080808;
   padding: 20px;
 
 }
@@ -44,7 +44,7 @@ body,html{
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: black; /* Black*/
+    background-color: #080808; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -130,10 +130,24 @@ body,html{
   height: calc(100vh - 65px);
 }
 
+#blog-txt{
+  background-color: #080808;
+}
+
+.social{
+  height: 20px;
+  width: 20px;
+  transition: 0.3s;
+}
+
+.social:hover{
+  opacity: 0.75;
+}
+
 
 #contact{
   height:  calc(100vh - 65px);
-  background-color: black;
+  background-color: #080808;
 }
 
 
