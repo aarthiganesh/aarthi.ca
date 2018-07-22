@@ -3,7 +3,8 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'PT Mono', monospace;
+   /* font-family: 'Lato', sans-serif;*/
     font-weight: 300;
     color: #818181;
     display: block;
@@ -14,6 +15,7 @@
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #f1f1f1;
+    text-decoration: none;
 }
 
 /* Position and style the close button (top right corner) */
@@ -23,4 +25,24 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+
+#abt-txt{
+    padding-top: 30px;
+    font-family: 'PT Mono', monospace;
+    vertical-align: bottom;
+    background-color: black;
+    color: white;
+}
+
+#contact{
+    color: white;
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+    border-right: 3px solid white;
+}
+
+#contact a{
+    color: white;
 }

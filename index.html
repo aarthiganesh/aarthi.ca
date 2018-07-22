@@ -8,20 +8,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/font.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- FONTS -->
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+	<script src="script.js"></script>
 	<script src="script.js"></script>
 </head>
 
 <body>
 
 <!--Navbar-->
-	<div id="topnav">
-		<a href="index.html">
-			<img id="navlogo" src="logo-white.png">
-		</a>
-		<!-- Use any element to open the sidenav -->
-		<div id="hamburger" onclick="openNav()"> <img id="hamburger-icon" src="hamburger-w.png"> </div>
+
+<div id="nav" class="container-fluid">
+	<div class="row">
+		<div class="col" id="hamburger" onclick="openNav()"> 
+			<img id="hamburger-icon" src="hamburger-w.png"> 
+		</div>
+		<div class="d-flex justify-content-center">
+			<a href="index.html">
+				<img id="navlogo" src="logo-white.png">
+			</a>
+		</div>
+		<div class="col"></div>
 	</div>
+</div>
 
 <!--SideNav-->
 <div id="mySidenav" class="sidenav">
@@ -30,7 +45,7 @@
   <a href="#">PHOTOGRAPHY</a>
   <a href="#">DESIGN</a>
   <a href="#">BLOG</a>
-  <a href="#">CONTACT</a>
+  <a href="contact.html">CONTACT</a>
 </div>
 
 
