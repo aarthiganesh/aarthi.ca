@@ -41,6 +41,10 @@
     color: black;
 }
 
+.bloglist{
+    padding-top: 15px;
+}
+
 .bloglist a:hover{
     color: white;
 }
@@ -48,7 +52,7 @@
 .blog-list{
 
     font-family: 'PT Mono', monospace;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
