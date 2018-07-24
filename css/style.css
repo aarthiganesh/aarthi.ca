@@ -8,6 +8,12 @@ body,html{
 
 }
 
+#nav-invert{
+  background-color: white;
+  padding: 20px;
+
+}
+
 #navlogo{
 	height: 25px;
 	width: 25px;
@@ -144,10 +150,14 @@ body,html{
   opacity: 0.75;
 }
 
-
 #contact{
   height:  calc(100vh - 65px);
   background-color: #080808;
+}
+
+.blog{
+  padding: 30px;
+  padding-top: 15px;
 }
 
 

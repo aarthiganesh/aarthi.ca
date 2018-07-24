@@ -36,10 +36,12 @@
     color: white;
 }
 
-#blog-txt{
-    padding: 50px;
+.blog-txt{
     font-family: 'PT Mono', monospace;
-    background-color: #080808;
+    color: black;
+}
+
+.bloglist a:hover{
     color: white;
 }
 
