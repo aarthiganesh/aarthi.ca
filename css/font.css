@@ -70,6 +70,13 @@
     font-size: 25px;
 }
 
+.album-title{
+    
+    font-family: 'PT Mono', monospace;
+    color: black;
+    font-size: 12px;
+}
+
 #contact{
     color: white;
     font-family: 'PT Mono', monospace;

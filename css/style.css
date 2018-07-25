@@ -164,7 +164,26 @@ body,html{
   color: maroon;
 }
 
+.album-thmb{
+  width: 100%;
+  height: auto;
+}
 
+.gallery a:hover{
+  transition: 0.5s;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+.gallery{
+  padding-top: 15px;
+}
+
+.album-layout img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+}
 
 
 
