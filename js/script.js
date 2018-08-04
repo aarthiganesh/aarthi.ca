@@ -1,3 +1,10 @@
+jQuery(function($) {
+
+  $('.content').fadeIn(1000);
+
+});
+
+
 (function($){
 $(function(){
   $('.before-wrapper').on( "mousemove", function(e) {
