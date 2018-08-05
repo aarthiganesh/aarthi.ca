@@ -4,6 +4,14 @@ jQuery(function($) {
 
 });
 
+// (function($) {
+
+//   $(window).load(function() {
+//     $('.content').fadeIn(1000);
+//   });
+
+// });
+
 
 (function($){
 $(function(){
